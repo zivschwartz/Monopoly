@@ -7,9 +7,9 @@ Run 1,000 simulations of a two-player game that lasts 150 turns. This is a total
 Keep track of where the players land. We ultimately want to build a distribution showing which spaces are most likely to be landed upon. Advance the tokens around the board according to the rules. Keep in mind the special situations involving the cards, jail, and rolling doubles. After 150 turns, reset the game and start over. Simulate 1000 games.
 
 Code includes seperate reference classes for the player and gameboard. Player implements the following methods:
- a. drawing chance card
- b. drawing community chest card
- c. landing on "go to jail"
- d. roll again for rolling doubles
- e. going to jail for rolling three doubles
- f. jail functionality
+- drawing chance card
+- drawing community chest card
+- landing on "go to jail"
+- roll again for rolling doubles
+- going to jail for rolling three doubles
+- jail functionality
